@@ -24,6 +24,12 @@ class Book:
         self.title = title
         self.author = author
 
+# class for university dictionary
+class University:
+    def __init__(self, name, location):
+        self.name = name
+        self.location = location
+
 
 
 
