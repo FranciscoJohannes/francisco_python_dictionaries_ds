@@ -12,6 +12,15 @@ class Product:
         self.name = name
         self.price = price
 
+# List of product dictionaries
+products = [
+    {"name": "Laptop", "price": 750},
+    {"name": "Desk Chair", "price": 100},
+    {"name": "Smartwatch", "price": 200},
+    {"name": "Notebook", "price": 5},
+    {"name": "Running Shoes", "price": 80}
+]
+
 # class for employee dictionary
 class Employee:
     def __init__(self, name, department):
@@ -35,6 +44,7 @@ class Restaurant:
     def __init__(self, name, cuisine_type):
         self.name = name
         self.cuisine_type = cuisine_type
+
 
 
 if __name__ == '__main__':
