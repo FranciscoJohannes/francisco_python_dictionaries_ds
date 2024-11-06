@@ -30,7 +30,11 @@ class University:
         self.name = name
         self.location = location
 
-
+# class for restaurant dictionary
+class Restaurant:
+    def __init__(self, name, cuisine_type):
+        self.name = name
+        self.cuisine_type = cuisine_type
 
 
 if __name__ == '__main__':
