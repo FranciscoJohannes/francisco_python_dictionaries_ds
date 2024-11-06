@@ -27,6 +27,15 @@ class Employee:
         self.name = name
         self.department = department
 
+# List of employee dictionaries
+employees = [
+    {"name": "John Doe","department": "Sales"},
+    {"name": "Jane Smith","department": "Human Resources"},
+    {"name": "Mark Johnson","department": "IT"},
+    {"name": "Lisa Wong", "department": "Marketing"},
+    {"name": "Paul McDonald","department": "Finance"}
+]
+
 # class for book dictionary
 class Book:
     def __init__(self, title, author):
