@@ -42,6 +42,15 @@ class Book:
         self.title = title
         self.author = author
 
+# List of book dictionaries
+books = [
+    {"title": "The Great Gatsby", "author": "F. Scott Fitzgerald"},
+    {"title": "To Kill a Mockingbird", "author": "Harper Lee"},
+    {"title": "1984", "author": "George Orwell"},
+    {"title": "The Catcher in the Rye", "author": "J.D. Salinger"},
+    {"title": " A Brief History of Time", "author": "Stephen Hawking"}
+]
+
 # class for university dictionary
 class University:
     def __init__(self, name, location):
