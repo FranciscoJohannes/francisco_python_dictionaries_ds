@@ -18,6 +18,13 @@ class Employee:
         self.name = name
         self.department = department
 
+# class for book dictionary
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+
 
 
 if __name__ == '__main__':
