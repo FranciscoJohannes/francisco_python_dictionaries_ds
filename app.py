@@ -72,6 +72,15 @@ class Restaurant:
         self.name = name
         self.cuisine_type = cuisine_type
 
+# List of restaurant dictionaries
+restaurants = [
+    {"name": "Vikings Luxury Buffet", "cuisine_type": "Buffet"},
+    {"name": "Antonio's Restaurant", "cuisine_type": "Fine Dining"},
+    {"name": "Mesa Filipino Moderne", "cuisine_type": "Filipino"},
+    {"name": "Manam Comfort Filipino", "cuisine_type": "Filipino"},
+    {"name": "Ramen Nagi", "cuisine_type": "Japanese"}
+]
+
 
 
 if __name__ == '__main__':
