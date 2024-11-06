@@ -57,6 +57,15 @@ class University:
         self.name = name
         self.location = location
 
+# List of university dictionaries
+universities = [
+    {"name": "University of the Philippines", "location": "Quezon City"},
+    {"name": "Ateneo de Manila University", "location": "Quezon City"},
+    {"name": "De La Salle University", "location": "Manila"},
+    {"name": "University of Santo Tomas", "location": "Manila"},
+    {"name": "Polytechnic University of the Philippines", "location": "Manila"}
+]
+
 # class for restaurant dictionary
 class Restaurant:
     def __init__(self, name, cuisine_type):
